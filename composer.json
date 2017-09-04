@@ -1,0 +1,6 @@
+{
+    "name": "johnpbloch/wp-cli-phar",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
