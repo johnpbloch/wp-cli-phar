@@ -32,7 +32,7 @@ collect($releases)
     })
     ->filter()
     ->each(function ($item) use ($git) {
-        $pharFile = __DIR__ . DIRECTORY_SEPARATOR . 'wp-cli.phar';
+        $pharFile = __DIR__ . DIRECTORY_SEPARATOR . 'wp';
         $sigFile = __DIR__ . DIRECTORY_SEPARATOR . 'wp-cli.phar.sha512';
         $client = new Client();
         echo "Downloading $item->tag phar...\n";

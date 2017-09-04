@@ -8,5 +8,6 @@
         "guzzlehttp/guzzle": "^6.3",
         "czproject/git-php": "^3.9",
         "tightenco/collect": "^5.4"
-    }
+    },
+    "bin": ["wp"]
 }
