@@ -9,5 +9,8 @@
         "czproject/git-php": "^3.9",
         "tightenco/collect": "^5.4"
     },
+    "replace": {
+        "wp-cli/wp-cli": "self.version"
+    },
     "bin": ["wp"]
 }
